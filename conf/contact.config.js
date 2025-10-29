@@ -9,7 +9,7 @@ module.exports = {
         unescape(encodeURIComponent(process.env.NEXT_PUBLIC_CONTACT_EMAIL))
       )) ||
     'wenbo007@gmail.com', // 邮箱地址 例如mail@tangly1024.com
-  CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || 'https://blog.bobvane.top', // 你的微博个人主页
+  CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || 'https://www.bobvane.top', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '', // 你的twitter个人主页
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/bobvane', // 你的github个人主页 例如 https://github.com/tangly1024
   CONTACT_TELEGRAM: process.env.NEXT_PUBLIC_CONTACT_TELEGRAM || 'https://t.me/bobvane', // 你的telegram 地址 例如 https://t.me/tangly_1024
