@@ -41,11 +41,25 @@ const Footer = ({ title }) => {
         </span>
         <br />
         <h1>{title}</h1>
-        <span className='text-xs font-serif  text-gray-500 dark:text-gray-300 '>
+
+        {/* ======= 新增：隐私政策 + 联系我 ======= */}
+        <div className='mb-2 space-x-3 text-gray-500 dark:text-gray-300'>
+          <a href='/privacypolicy' className='hover:underline'>
+            隐私政策 / Privacy Policy
+          </a>
+          <span>|</span>
+          <a href='/about' className='hover:underline'>
+            联系我 / Contact Me
+          </a>
+        </div>
+        {/* ======= 结束 ======= */}
+
+        <span className='text-xs font-serif text-gray-500 dark:text-gray-300 '>
           Powered by{' '}
           <a
             href='https://github.com/tangly1024/NotionNext'
-            className='underline '>
+            className='underline '
+          >
             NotionNext {siteConfig('VERSION')}
           </a>
           .
